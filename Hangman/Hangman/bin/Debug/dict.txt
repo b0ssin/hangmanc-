@@ -1,0 +1,9 @@
+alpha
+male
+female
+science
+awards
+book
+books
+know
+knowledge
