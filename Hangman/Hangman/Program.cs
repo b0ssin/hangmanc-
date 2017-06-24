@@ -6,9 +6,29 @@ using System.Threading.Tasks;
 
 namespace Hangman
 {
+    // User class w/ attr: name, rand_word, letters left, wordByLetter, # of guesses
     class Player
     {
         public string Name;
+        private string RandWord;
+        private Char [] LettersLeft;
+        private  Char [] WordByLetter;
+        private int NumOfGuesses;
+        // class constructor (below will be used for loading player
+        public Player(string name, string randWord, Char [] lettersLeft,
+            Char [] wordByLetter, int numOfGuesses)
+        {
+            Name = name;
+            RandWord = randWord;
+            LettersLeft = lettersLeft;
+            WordByLetter = wordByLetter;
+            NumOfGuesses = numOfGuesses;
+        }
+        // will be used for making a new player
+        public Player(string name, string randWord)
+        {
+            this (name, randWord, )
+        }
     }
     class Game
     {
