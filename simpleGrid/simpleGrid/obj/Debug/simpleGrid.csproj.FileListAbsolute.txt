@@ -1,0 +1,6 @@
+c:\users\bossin\documents\visual studio 2017\Projects\simpleGrid\simpleGrid\obj\Debug\simpleGrid.csprojResolveAssemblyReference.cache
+c:\users\bossin\documents\visual studio 2017\Projects\simpleGrid\simpleGrid\bin\Debug\simpleGrid.exe.config
+c:\users\bossin\documents\visual studio 2017\Projects\simpleGrid\simpleGrid\bin\Debug\simpleGrid.exe
+c:\users\bossin\documents\visual studio 2017\Projects\simpleGrid\simpleGrid\bin\Debug\simpleGrid.pdb
+c:\users\bossin\documents\visual studio 2017\Projects\simpleGrid\simpleGrid\obj\Debug\simpleGrid.exe
+c:\users\bossin\documents\visual studio 2017\Projects\simpleGrid\simpleGrid\obj\Debug\simpleGrid.pdb

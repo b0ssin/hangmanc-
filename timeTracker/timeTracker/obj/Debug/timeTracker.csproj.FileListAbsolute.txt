@@ -1,0 +1,6 @@
+c:\users\bossin\documents\visual studio 2017\Projects\timeTracker\timeTracker\obj\Debug\timeTracker.csprojResolveAssemblyReference.cache
+c:\users\bossin\documents\visual studio 2017\Projects\timeTracker\timeTracker\bin\Debug\timeTracker.exe.config
+c:\users\bossin\documents\visual studio 2017\Projects\timeTracker\timeTracker\bin\Debug\timeTracker.exe
+c:\users\bossin\documents\visual studio 2017\Projects\timeTracker\timeTracker\bin\Debug\timeTracker.pdb
+c:\users\bossin\documents\visual studio 2017\Projects\timeTracker\timeTracker\obj\Debug\timeTracker.exe
+c:\users\bossin\documents\visual studio 2017\Projects\timeTracker\timeTracker\obj\Debug\timeTracker.pdb

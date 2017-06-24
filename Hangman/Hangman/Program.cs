@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Hangman
 {
-    class Program
+    class Player
+    {
+        public string Name;
+    }
+    class Game
     {
         const string path = "dict.txt";
+
         // checks if user input is valid
         private static bool IsValid(int low, int high, int userInput)
         {
@@ -67,6 +72,11 @@ namespace Hangman
 
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Enter your name:");
+            string playerName = Console.ReadLine();
+            Player bob = new Player();
+            Console.WriteLine(bob.Name);
             // get and store rand word
             string randWord = SelectRandomWord();
             Console.WriteLine(randWord);

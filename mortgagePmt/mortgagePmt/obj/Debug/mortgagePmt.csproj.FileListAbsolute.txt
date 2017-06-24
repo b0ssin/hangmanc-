@@ -1,0 +1,6 @@
+c:\users\bossin\documents\visual studio 2017\Projects\mortgagePmt\mortgagePmt\bin\Debug\mortgagePmt.exe.config
+c:\users\bossin\documents\visual studio 2017\Projects\mortgagePmt\mortgagePmt\bin\Debug\mortgagePmt.exe
+c:\users\bossin\documents\visual studio 2017\Projects\mortgagePmt\mortgagePmt\bin\Debug\mortgagePmt.pdb
+c:\users\bossin\documents\visual studio 2017\Projects\mortgagePmt\mortgagePmt\obj\Debug\mortgagePmt.csprojResolveAssemblyReference.cache
+c:\users\bossin\documents\visual studio 2017\Projects\mortgagePmt\mortgagePmt\obj\Debug\mortgagePmt.exe
+c:\users\bossin\documents\visual studio 2017\Projects\mortgagePmt\mortgagePmt\obj\Debug\mortgagePmt.pdb
