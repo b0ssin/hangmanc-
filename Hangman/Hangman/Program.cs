@@ -10,7 +10,7 @@ namespace Hangman
     class Player
     {
         public string Name;
-        private string RandWord;
+        public string RandWord;
         private Char [] LettersLeft;
         private  Char [] WordByLetter;
         private int NumOfGuesses;
@@ -24,12 +24,46 @@ namespace Hangman
             WordByLetter = wordByLetter;
             NumOfGuesses = numOfGuesses;
         }
-        // will be used for making a new player
-        public Player(string name, string randWord)
+        // accessor of private LettersLeft
+        public string GetLettersLeft()
         {
-            this (name, randWord, )
+            return new string(this.LettersLeft);
         }
+        // accessor of private WordByLetter
+        public string GetWordByLetter()
+        {
+            return new string(this.WordByLetter);
+        }
+        // accessor of private NumOfGuesses;
+        public string GetNumOfGuesses()
+        {
+            return this.NumOfGuesses.ToString();
+        }
+
     }
+
+    class SaveLogic
+    {
+        public void Save(Player player)
+        {
+            string fileName = player.Name + ".txt";
+            string serializedLettersLeft = player.GetLettersLeft();
+            string serializedWordByLetter = player.GetWordByLetter();
+            string serializedNumOfGuesses = player.GetNumOfGuesses();
+            // make on string of content for WriteAllText
+            string serializedObj;
+            serializedObj = player.Name + "\n" + player.RandWord + "\n" +
+                serializedLettersLeft + "\n" + serializedWordByLetter +
+                "\n" + serializedNumOfGuesses;
+            System.IO.File.WriteAllText(fileName, serializedObj);
+        }
+
+        //public Player Load()
+        //{
+
+        //}
+    }
+
     class Game
     {
         const string path = "dict.txt";
@@ -59,6 +93,7 @@ namespace Hangman
                 return 0;
             }
         }
+
         private static string SelectRandomWord()
         {
             string[] words = System.IO.File.ReadAllLines(path);
@@ -92,7 +127,6 @@ namespace Hangman
 
         static void Main(string[] args)
         {
-
             Console.WriteLine("Enter your name:");
             string playerName = Console.ReadLine();
             Player bob = new Player();
@@ -100,8 +134,9 @@ namespace Hangman
             // get and store rand word
             string randWord = SelectRandomWord();
             Console.WriteLine(randWord);
-            MainMenu();
+            int userChoice = MainMenu();
             Console.ReadKey();
         }
+
     }
 }
